@@ -1,0 +1,51 @@
+Iniciando programa
+Thread 0 iniciado
+Thread 0 - Iteración 1
+Thread 0 - Recurso tomado. Recursos disponibles: 9
+Thread 1 iniciado
+Thread 1 - Iteración 1
+Thread 1 - Recurso tomado. Recursos disponibles: 8
+Thread 2 iniciado
+Thread 2 - Iteración 1
+Thread 2 - Recurso tomado. Recursos disponibles: 7
+Thread 3 iniciado
+Thread 3 - Iteración 1
+Thread 3 - Recurso tomado. Recursos disponibles: 6
+Thread 4 iniciado
+Thread 4 - Iteración 1
+Thread 4 - Recurso tomado. Recursos disponibles: 5
+Thread 2 - Recurso devuelto. Recursos disponibles: 7
+Thread 0 - Recurso devuelto. Recursos disponibles: 6
+Thread 2 - Iteración 2
+Thread 2 - Recurso tomado. Recursos disponibles: 6
+Thread 3 - Recurso devuelto. Recursos disponibles: 7
+Thread 3 - Iteración 2
+Thread 3 - Recurso tomado. Recursos disponibles: 6
+Thread 0 - Iteración 2
+Thread 0 - Recurso tomado. Recursos disponibles: 5
+Thread 3 - Recurso devuelto. Recursos disponibles: 6
+Thread 3 - Iteración 3
+Thread 3 - Recurso tomado. Recursos disponibles: 6
+Thread 1 - Recurso devuelto. Recursos disponibles: 7
+Thread 1 - Iteración 2
+Thread 1 - Recurso tomado. Recursos disponibles: 5
+Thread 4 - Recurso devuelto. Recursos disponibles: 6
+Thread 4 - Iteración 2
+Thread 4 - Recurso tomado. Recursos disponibles: 6
+Thread 0 - Recurso devuelto. Recursos disponibles: 7
+Thread 0 - Iteración 3
+Thread 0 - Recurso tomado. Recursos disponibles: 5
+Thread 2 - Recurso devuelto. Recursos disponibles: 6
+Thread 2 - Iteración 3
+Thread 2 - Recurso tomado. Recursos disponibles: 5
+Thread 0 - Recurso devuelto. Recursos disponibles: 6
+Thread 1 - Recurso devuelto. Recursos disponibles: 7
+Thread 1 - Iteración 3
+Thread 1 - Recurso tomado. Recursos disponibles: 6
+Thread 3 - Recurso devuelto. Recursos disponibles: 7
+Thread 2 - Recurso devuelto. Recursos disponibles: 8
+Thread 4 - Recurso devuelto. Recursos disponibles: 9
+Thread 4 - Iteración 3
+Thread 4 - Recurso tomado. Recursos disponibles: 8
+Thread 4 - Recurso devuelto. Recursos disponibles: 9
+Thread 1 - Recurso devuelto. Recursos disponibles: 10
