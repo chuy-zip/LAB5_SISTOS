@@ -26,30 +26,33 @@ void* thread_function(void* arg) {
     long thread_id = (long)arg;
     char log_msg[100];
     
-    sprintf(log_msg, "Thread %ld iniciado", thread_id);
-    log_message(log_msg);
+    //sprintf(log_msg, "Iniciando thread %ld:", thread_id);
+    //log_message(log_msg);
     
     for (int i = 0; i < NUM_ITERATIONS; i++) {
-        sprintf(log_msg, "Thread %ld - Iteración %d", thread_id, i+1);
+        sprintf(log_msg, "Thread %ld en Iteración %d", thread_id, i+1);
         log_message(log_msg);
         
         // consumir
         sem_wait(&resource_sem);
+
+        // luego del wait es que accede al semáforo
+        sprintf(log_msg, "Thread %ld - Semáforo abierto con éxito", thread_id);
+        log_message(log_msg);
+
         available_resources--;
-        
-        sprintf(log_msg, "Thread %ld - Recurso tomado. Recursos disponibles: %d", 
-                thread_id, available_resources);
+        sprintf(log_msg, "Thread %ld - Recurso tomado. Recursos disponibles: %d", thread_id, available_resources);
         log_message(log_msg);
         
-        // tiemp trabajo medio random 
-        int sleep_time = rand() % 3 + 1;
-        sleep(sleep_time);
+        // tiemp trabajo random 
+        //int sleep_time = rand() % 3 + 1;
+        sleep(1);
         
         // devolver
         available_resources++;
         sem_post(&resource_sem);
         
-        sprintf(log_msg, "Thread %ld - Recurso devuelto. Recursos disponibles: %d", 
+        sprintf(log_msg, "Thread %ld - Recurso devuelto :). Recursos disponibles: %d", 
                 thread_id, available_resources);
         log_message(log_msg);
     }
@@ -58,7 +61,7 @@ void* thread_function(void* arg) {
 }
 
 int main() {
-    srand(time(NULL));
+    //srand(time(NULL));
     log_file = fopen("programa1.txt", "w");
     if (!log_file) {
         perror("Error al abrir archivo de log");
@@ -74,15 +77,19 @@ int main() {
     //creacion de los threads
     for (long i = 0; i < NUM_THREADS; i++) {
         pthread_create(&threads[i], NULL, thread_function, (void*)i);
+        char log_msg[100];
+        sprintf(log_msg, "Thread %ld creado", i);
+        log_message(log_msg);
     }
+
     for (int i = 0; i < NUM_THREADS; i++) {
         pthread_join(threads[i], NULL);
     }
 
+    log_message("Programa terminado");
     //limpiar
     sem_destroy(&resource_sem);
     fclose(log_file);
     
-    log_message("Programa terminado");
     return 0;
 }
