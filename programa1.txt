@@ -1,67 +1,67 @@
 Iniciando programa
-Thread 0 creado
+Iniciando thread 0:
 Thread 0 en Iteración 1
 Thread 0 - Semáforo abierto con éxito
-Thread 0 - Recurso tomado. Recursos disponibles: 9
-Thread 1 creado
+Thread 0 - Recurso tomado. Recursos disponibles: 1
+Iniciando thread 1:
 Thread 1 en Iteración 1
 Thread 1 - Semáforo abierto con éxito
-Thread 1 - Recurso tomado. Recursos disponibles: 8
-Thread 2 creado
+Thread 1 - Recurso tomado. Recursos disponibles: 0
+Iniciando thread 2:
 Thread 2 en Iteración 1
-Thread 2 - Semáforo abierto con éxito
-Thread 2 - Recurso tomado. Recursos disponibles: 7
-Thread 3 creado
+Iniciando thread 3:
 Thread 3 en Iteración 1
-Thread 3 - Semáforo abierto con éxito
-Thread 3 - Recurso tomado. Recursos disponibles: 6
-Thread 4 creado
+Iniciando thread 4:
 Thread 4 en Iteración 1
-Thread 4 - Semáforo abierto con éxito
-Thread 4 - Recurso tomado. Recursos disponibles: 5
-Thread 0 - Recurso devuelto :). Recursos disponibles: 6
+Thread 0 - Recurso devuelto :). Recursos disponibles: 1
 Thread 0 en Iteración 2
 Thread 0 - Semáforo abierto con éxito
-Thread 0 - Recurso tomado. Recursos disponibles: 5
-Thread 2 - Recurso devuelto :). Recursos disponibles: 6
-Thread 2 en Iteración 2
+Thread 0 - Recurso tomado. Recursos disponibles: 1
 Thread 2 - Semáforo abierto con éxito
-Thread 2 - Recurso tomado. Recursos disponibles: 5
-Thread 1 - Recurso devuelto :). Recursos disponibles: 6
+Thread 1 - Recurso devuelto :). Recursos disponibles: 1
 Thread 1 en Iteración 2
-Thread 1 - Semáforo abierto con éxito
-Thread 1 - Recurso tomado. Recursos disponibles: 5
-Thread 3 - Recurso devuelto :). Recursos disponibles: 6
-Thread 3 en Iteración 2
-Thread 3 - Semáforo abierto con éxito
-Thread 3 - Recurso tomado. Recursos disponibles: 5
-Thread 4 - Recurso devuelto :). Recursos disponibles: 6
-Thread 4 en Iteración 2
-Thread 4 - Semáforo abierto con éxito
-Thread 4 - Recurso tomado. Recursos disponibles: 5
-Thread 0 - Recurso devuelto :). Recursos disponibles: 6
+Thread 2 - Recurso tomado. Recursos disponibles: 0
+Thread 0 - Recurso devuelto :). Recursos disponibles: 1
 Thread 0 en Iteración 3
-Thread 0 - Semáforo abierto con éxito
-Thread 0 - Recurso tomado. Recursos disponibles: 9
-Thread 2 - Recurso devuelto :). Recursos disponibles: 7
-Thread 2 en Iteración 3
-Thread 2 - Semáforo abierto con éxito
-Thread 2 - Recurso tomado. Recursos disponibles: 8
-Thread 3 - Recurso devuelto :). Recursos disponibles: 9
-Thread 3 en Iteración 3
-Thread 3 - Semáforo abierto con éxito
-Thread 3 - Recurso tomado. Recursos disponibles: 7
-Thread 4 - Recurso devuelto :). Recursos disponibles: 8
-Thread 4 en Iteración 3
 Thread 4 - Semáforo abierto con éxito
-Thread 4 - Recurso tomado. Recursos disponibles: 6
-Thread 1 - Recurso devuelto :). Recursos disponibles: 10
+Thread 4 - Recurso tomado. Recursos disponibles: 0
+Thread 2 - Recurso devuelto :). Recursos disponibles: 1
+Thread 2 en Iteración 2
+Thread 3 - Semáforo abierto con éxito
+Thread 3 - Recurso tomado. Recursos disponibles: 0
+Thread 4 - Recurso devuelto :). Recursos disponibles: 2
+Thread 3 - Recurso devuelto :). Recursos disponibles: 2
+Thread 4 en Iteración 2
+Thread 3 en Iteración 2
+Thread 1 - Semáforo abierto con éxito
+Thread 0 - Semáforo abierto con éxito
+Thread 1 - Recurso tomado. Recursos disponibles: 1
+Thread 0 - Recurso tomado. Recursos disponibles: 0
+Thread 0 - Recurso devuelto :). Recursos disponibles: 1
+Thread 1 - Recurso devuelto :). Recursos disponibles: 2
 Thread 1 en Iteración 3
 Thread 1 - Semáforo abierto con éxito
-Thread 1 - Recurso tomado. Recursos disponibles: 5
-Thread 0 - Recurso devuelto :). Recursos disponibles: 7
-Thread 2 - Recurso devuelto :). Recursos disponibles: 7
-Thread 3 - Recurso devuelto :). Recursos disponibles: 8
-Thread 4 - Recurso devuelto :). Recursos disponibles: 9
-Thread 1 - Recurso devuelto :). Recursos disponibles: 10
+Thread 1 - Recurso tomado. Recursos disponibles: 1
+Thread 4 - Semáforo abierto con éxito
+Thread 4 - Recurso tomado. Recursos disponibles: 0
+Thread 1 - Recurso devuelto :). Recursos disponibles: 1
+Thread 3 - Semáforo abierto con éxito
+Thread 3 - Recurso tomado. Recursos disponibles: 0
+Thread 4 - Recurso devuelto :). Recursos disponibles: 1
+Thread 4 en Iteración 3
+Thread 2 - Semáforo abierto con éxito
+Thread 2 - Recurso tomado. Recursos disponibles: 0
+Thread 3 - Recurso devuelto :). Recursos disponibles: 1
+Thread 3 en Iteración 3
+Thread 4 - Semáforo abierto con éxito
+Thread 4 - Recurso tomado. Recursos disponibles: 0
+Thread 2 - Recurso devuelto :). Recursos disponibles: 1
+Thread 2 en Iteración 3
+Thread 3 - Semáforo abierto con éxito
+Thread 3 - Recurso tomado. Recursos disponibles: 0
+Thread 4 - Recurso devuelto :). Recursos disponibles: 1
+Thread 2 - Semáforo abierto con éxito
+Thread 2 - Recurso tomado. Recursos disponibles: 0
+Thread 3 - Recurso devuelto :). Recursos disponibles: 1
+Thread 2 - Recurso devuelto :). Recursos disponibles: 2
 Programa terminado

@@ -9,7 +9,7 @@
 // de un define y que no era necesario hacer que el usuario elija :)
 #define NUM_THREADS 5
 #define NUM_ITERATIONS 3
-#define INITIAL_RESOURCES 10
+#define INITIAL_RESOURCES 2
 
 // globales
 int available_resources = INITIAL_RESOURCES;
@@ -26,9 +26,6 @@ void* thread_function(void* arg) {
     long thread_id = (long)arg;
     char log_msg[100];
     
-    //sprintf(log_msg, "Iniciando thread %ld:", thread_id);
-    //log_message(log_msg);
-    
     for (int i = 0; i < NUM_ITERATIONS; i++) {
         sprintf(log_msg, "Thread %ld en Iteración %d", thread_id, i+1);
         log_message(log_msg);
@@ -41,19 +38,18 @@ void* thread_function(void* arg) {
         log_message(log_msg);
 
         available_resources--;
-        sprintf(log_msg, "Thread %ld - Recurso tomado. Recursos disponibles: %d", thread_id, available_resources);
+        sprintf(log_msg, "Thread %ld - Recurso tomado. Recursos disponibles ahora: %d", thread_id, available_resources);
         log_message(log_msg);
         
-        // tiemp trabajo random 
-        //int sleep_time = rand() % 3 + 1;
-        sleep(1);
+        // tiemp trabajo random
+        int sleep_time = rand() % 3 + 1;
+        sleep(sleep_time);
         
         // devolver
         available_resources++;
         sem_post(&resource_sem);
         
-        sprintf(log_msg, "Thread %ld - Recurso devuelto :). Recursos disponibles: %d", 
-                thread_id, available_resources);
+        sprintf(log_msg, "Thread %ld - Recurso devuelto :). Recursos disponibles: %d", thread_id, available_resources);
         log_message(log_msg);
     }
     
@@ -61,7 +57,7 @@ void* thread_function(void* arg) {
 }
 
 int main() {
-    //srand(time(NULL));
+    srand(time(NULL));
     log_file = fopen("programa1.txt", "w");
     if (!log_file) {
         perror("Error al abrir archivo de log");
@@ -78,7 +74,7 @@ int main() {
     for (long i = 0; i < NUM_THREADS; i++) {
         pthread_create(&threads[i], NULL, thread_function, (void*)i);
         char log_msg[100];
-        sprintf(log_msg, "Thread %ld creado", i);
+        sprintf(log_msg, "Iniciando thread %ld:", i);
         log_message(log_msg);
     }
 

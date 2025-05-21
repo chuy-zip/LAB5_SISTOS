@@ -1,0 +1,127 @@
+Iniciando programa con monitor
+Thread 140487922529984 iniciado
+Thread 140487922529984 - Iteración 1
+Thread 140487922529984 - Intentando consumir 1 recursos
+Iniciando decrease_count
+Thread 140487922529984 ha adquirido el Mutex, entrando al monitor en decrease
+Thread 140487922529984 ha consumido 1 recursos. Recursos disponibles ahora: 9
+Terminando decrease_count
+Thread 140487914137280 iniciado
+Thread 140487914137280 - Iteración 1
+Thread 140487914137280 - Intentando consumir 1 recursos
+Iniciando decrease_count
+Thread 140487914137280 ha adquirido el Mutex, entrando al monitor en decrease
+Thread 140487914137280 ha consumido 1 recursos. Recursos disponibles ahora: 8
+Terminando decrease_count
+Thread 140487905744576 iniciado
+Thread 140487905744576 - Iteración 1
+Thread 140487905744576 - Intentando consumir 1 recursos
+Iniciando decrease_count
+Thread 140487905744576 ha adquirido el Mutex, entrando al monitor en decrease
+Thread 140487905744576 ha consumido 1 recursos. Recursos disponibles ahora: 7
+Terminando decrease_count
+Thread 140487897351872 iniciado
+Thread 140487897351872 - Iteración 1
+Thread 140487897351872 - Intentando consumir 1 recursos
+Iniciando decrease_count
+Thread 140487897351872 ha adquirido el Mutex, entrando al monitor en decrease
+Thread 140487897351872 ha consumido 1 recursos. Recursos disponibles ahora: 6
+Terminando decrease_count
+Thread 140487888959168 iniciado
+Thread 140487888959168 - Iteración 1
+Thread 140487888959168 - Intentando consumir 2 recursos
+Iniciando decrease_count
+Thread 140487888959168 ha adquirido el Mutex, entrando al monitor en decrease
+Thread 140487888959168 ha consumido 2 recursos. Recursos disponibles ahora: 4
+Terminando decrease_count
+Thread 140487888959168 - Entrando a increase_count(2)
+Thread 140487888959168 ha devuelto 2 recursos. Recursos disponibles ahora: 6
+Thread 140487888959168 - Iteración 2
+Thread 140487888959168 - Intentando consumir 1 recursos
+Iniciando decrease_count
+Thread 140487888959168 ha adquirido el Mutex, entrando al monitor en decrease
+Thread 140487888959168 ha consumido 1 recursos. Recursos disponibles ahora: 5
+Terminando decrease_count
+Thread 140487922529984 - Entrando a increase_count(1)
+Thread 140487922529984 ha devuelto 1 recursos. Recursos disponibles ahora: 6
+Thread 140487922529984 - Iteración 2
+Thread 140487922529984 - Intentando consumir 2 recursos
+Iniciando decrease_count
+Thread 140487922529984 ha adquirido el Mutex, entrando al monitor en decrease
+Thread 140487922529984 ha consumido 2 recursos. Recursos disponibles ahora: 4
+Terminando decrease_count
+Thread 140487922529984 - Entrando a increase_count(2)
+Thread 140487922529984 ha devuelto 2 recursos. Recursos disponibles ahora: 6
+Thread 140487922529984 - Iteración 3
+Thread 140487922529984 - Intentando consumir 1 recursos
+Iniciando decrease_count
+Thread 140487922529984 ha adquirido el Mutex, entrando al monitor en decrease
+Thread 140487922529984 ha consumido 1 recursos. Recursos disponibles ahora: 5
+Terminando decrease_count
+Thread 140487897351872 - Entrando a increase_count(1)
+Thread 140487897351872 ha devuelto 1 recursos. Recursos disponibles ahora: 6
+Thread 140487897351872 - Iteración 2
+Thread 140487897351872 - Intentando consumir 1 recursos
+Iniciando decrease_count
+Thread 140487897351872 ha adquirido el Mutex, entrando al monitor en decrease
+Thread 140487897351872 ha consumido 1 recursos. Recursos disponibles ahora: 5
+Terminando decrease_count
+Thread 140487905744576 - Entrando a increase_count(1)
+Thread 140487905744576 ha devuelto 1 recursos. Recursos disponibles ahora: 6
+Thread 140487905744576 - Iteración 2
+Thread 140487905744576 - Intentando consumir 2 recursos
+Iniciando decrease_count
+Thread 140487905744576 ha adquirido el Mutex, entrando al monitor en decrease
+Thread 140487905744576 ha consumido 2 recursos. Recursos disponibles ahora: 4
+Terminando decrease_count
+Thread 140487888959168 - Entrando a increase_count(1)
+Thread 140487888959168 ha devuelto 1 recursos. Recursos disponibles ahora: 5
+Thread 140487888959168 - Iteración 3
+Thread 140487888959168 - Intentando consumir 2 recursos
+Iniciando decrease_count
+Thread 140487888959168 ha adquirido el Mutex, entrando al monitor en decrease
+Thread 140487888959168 ha consumido 2 recursos. Recursos disponibles ahora: 3
+Terminando decrease_count
+Thread 140487914137280 - Entrando a increase_count(1)
+Thread 140487914137280 ha devuelto 1 recursos. Recursos disponibles ahora: 4
+Thread 140487914137280 - Iteración 2
+Thread 140487914137280 - Intentando consumir 2 recursos
+Iniciando decrease_count
+Thread 140487914137280 ha adquirido el Mutex, entrando al monitor en decrease
+Thread 140487914137280 ha consumido 2 recursos. Recursos disponibles ahora: 2
+Terminando decrease_count
+Thread 140487888959168 - Entrando a increase_count(2)
+Thread 140487888959168 ha devuelto 2 recursos. Recursos disponibles ahora: 4
+Thread 140487905744576 - Entrando a increase_count(2)
+Thread 140487905744576 ha devuelto 2 recursos. Recursos disponibles ahora: 6
+Thread 140487905744576 - Iteración 3
+Thread 140487905744576 - Intentando consumir 3 recursos
+Iniciando decrease_count
+Thread 140487905744576 ha adquirido el Mutex, entrando al monitor en decrease
+Thread 140487905744576 ha consumido 3 recursos. Recursos disponibles ahora: 3
+Terminando decrease_count
+Thread 140487897351872 - Entrando a increase_count(1)
+Thread 140487897351872 ha devuelto 1 recursos. Recursos disponibles ahora: 4
+Thread 140487897351872 - Iteración 3
+Thread 140487897351872 - Intentando consumir 1 recursos
+Iniciando decrease_count
+Thread 140487897351872 ha adquirido el Mutex, entrando al monitor en decrease
+Thread 140487897351872 ha consumido 1 recursos. Recursos disponibles ahora: 3
+Terminando decrease_count
+Thread 140487922529984 - Entrando a increase_count(1)
+Thread 140487922529984 ha devuelto 1 recursos. Recursos disponibles ahora: 4
+Thread 140487914137280 - Entrando a increase_count(2)
+Thread 140487914137280 ha devuelto 2 recursos. Recursos disponibles ahora: 6
+Thread 140487914137280 - Iteración 3
+Thread 140487914137280 - Intentando consumir 2 recursos
+Iniciando decrease_count
+Thread 140487914137280 ha adquirido el Mutex, entrando al monitor en decrease
+Thread 140487914137280 ha consumido 2 recursos. Recursos disponibles ahora: 4
+Terminando decrease_count
+Thread 140487905744576 - Entrando a increase_count(3)
+Thread 140487905744576 ha devuelto 3 recursos. Recursos disponibles ahora: 7
+Thread 140487897351872 - Entrando a increase_count(1)
+Thread 140487897351872 ha devuelto 1 recursos. Recursos disponibles ahora: 8
+Thread 140487914137280 - Entrando a increase_count(2)
+Thread 140487914137280 ha devuelto 2 recursos. Recursos disponibles ahora: 10
+Programa terminado
