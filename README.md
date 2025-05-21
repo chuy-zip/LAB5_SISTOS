@@ -9,16 +9,16 @@ Comandos a ejecutar para correr cada uno de los programas
 ```
 gcc programa1.c -o programa1 -lpthread
 ```
+#### Ejecución
 ```
 ./programa1
 ```
 
 ## Programa 2
-
-#### Compilación
 ```
 gcc programa2.c -o programa2 -lpthread
 ```
+#### Ejecución
 ```
 ./programa2
 ```
